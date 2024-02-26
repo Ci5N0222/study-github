@@ -1,0 +1,37 @@
+## `git init`
+- 작업 폴더에서 깃을 사용하고 싶을 경우
+- 파일 생성, 코드 작성 등을 추적하기 시작한다.
+
+## `git add 파일명`
+- 커밋할 파일을 추가
+- add 된 파일을 staging area로 이동 (staging 이라 함)
+
+### `git add 파일명1 파일명2`
+- 여러 파일을 동시에 스테이징
+### `git add .`
+- 변경이 되거나 추가된 파일들 모두 스테이징
+
+
+## `git commit -m '남길 메시지'`
+- '남길 메시지' 안에 추가된 파일, 변경된 파일 등을 repository에 저장
+
+*** staging area : commit을 하기 전 commit할 파일들을 골라 놓은 곳
+*** repository : commit된 파일의 버전들을 모아 놓는 곳
+
+
+## `git status`
+- 지금 변경된 파일, 스테이징된 파일 등을 알려주는 상태창
+
+
+## `git restore --staged 파일명`
+- 스테이징된 파일을 취소하고 싶을 때 사용하는 명령어
+
+### `git restore .`
+- 스테이징된 모든 파일을 취소
+
+
+### `git log`
+- 깃에 commit한 기록을 확인할 때 사용하는 명령어
+
+## `git log --all --oneline`
+## `git log --all --oneline --graph`
