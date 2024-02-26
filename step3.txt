@@ -1,0 +1,11 @@
+git branch 만들기
+
+### `git branch 이름`
+- git branch 생성
+
+### `git switch 이름`
+- git branch 또는 main으로 이동
+
+### `git status`
+- On branch main 또는 branch(이름)
+
