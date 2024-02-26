@@ -1,0 +1,15 @@
+타인과 협업하기 (git clone, pull)
+
+## `git clone 저장주소.git`
+- git 복제본 만들기
+
+## `git pull`
+- 원격저장소에 있는 내용을 로컬 저장소에 합치는 명령어
+- 최신 변경 내용을 반영하기 위해 사용
+1. `git fetch` + `git merge`
+    - git fetch : 원격저장소 신규 commit 가져오기
+    - git merge : 내 브랜치에 merge
+2. conflict 발생 가능
+    - 원격 저장소에서 수정한 파일과 내가 수정한 파일이 겹칠 경우
+
+## git push하기 전엔 git pull 부터 하자!!
