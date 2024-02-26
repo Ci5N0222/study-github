@@ -1,0 +1,21 @@
+코드 보관하기
+
+## `git stash`
+
+## `git stash list`
+
+staging 안해놓은 새로운 파일은 stash가 안될 수도 있다.
+
+## `git stash save '잠시 보관'`
+
+## `git stash pop`
+- 가장 최근의 stash부터 불러온다.
+
+## `git stash list`
+- stash한 리스트를 보여준다.
+
+## `git stash drop 번호`
+- 해당 번호의 stash를 지운다.
+
+## `git stash clear`
+- 모든 stash를 지운다.
