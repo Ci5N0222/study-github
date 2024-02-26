@@ -1,4 +1,4 @@
-create brench
+create brench, git merge
 
 git branch 만들기
 
@@ -12,7 +12,6 @@ git branch 만들기
 - On branch main 또는 branch(이름)
 
 ## HEAD : 현재 위치
-
 
 ## `git merge 이름`
 1. main과 branch가 서로 다른 파일을 수정하였을 때, 안정적으로 merge가 된다.
