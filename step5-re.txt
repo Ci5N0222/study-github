@@ -1,0 +1,16 @@
+revert, reset, restore
+- 파일 복구, commit 복구, 이전 내용으로 이동
+
+파일 단위의 복구
+### `git restor --staged c`
+- git add한 내용을 취소
+
+commit 단위의 복구
+### `git revert 커밋ID`
+- ID에 맞는 commit 취소
+### `git revert HEAD`
+- 가장 최근 commit 취소
+
+### `git reset --hard 커밋ID`
+- 협업 시 사용 금지
+- ID에 맞는 commit으로 이동
